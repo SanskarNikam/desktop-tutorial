@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofa Cleaning Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/homeskillz.jpg" alt="logo">
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="help.html" class="button">Help</a></li>              
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="contact.html" class="button">Contact us</a></li>
+                <li><a href="feedback.html" class="button">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="sofa-cleaning">
+    <h2>Sofa Cleaning</h2>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image1.jpg" alt="Sofa Cleaning Image 1">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image2.jpg" alt="Sofa Cleaning Image 2">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image3.jpg" alt="Sofa Cleaning Image 3">
+        </div>
+    </div>
+    <p>Give your furniture a new lease of life with our expert sofa cleaning services. We use advanced techniques to remove dirt, stains, and odors, leaving your sofas fresh and clean.</p>
+    <img src="sofa-cleaning-image.jpg" alt="Sofa Cleaning">
+    <h3>Pricing</h3>
+    <p>Our sofa cleaning prices start at $69.99. Prices may vary depending on the size and type of sofa.</p>
+    <div class="rating">
+        <p>Service Rating: <span class="stars">★★★★☆</span></p>
+    </div>
+</section>
+
+<section class="carpet-cleaning">
+    <h2>Carpet Cleaning</h2>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image1.jpg" alt="Sofa Cleaning Image 1">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image2.jpg" alt="Sofa Cleaning Image 2">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image3.jpg" alt="Sofa Cleaning Image 3">
+        </div>
+    </div>
+    <p>Revitalize your carpets with our professional carpet cleaning services. We use eco-friendly solutions to deep clean your carpets and remove tough stains.</p>
+    <img src="carpet-cleaning-image.jpg" alt="Carpet Cleaning">
+    <h3>Pricing</h3>
+    <p>Our carpet cleaning prices start at $49.99. Prices may vary depending on the size and condition of the carpet.</p>
+    <div class="rating">
+        <p>Service Rating: <span class="stars">★★★★★</span></p>
+    </div>
+</section>
+
+<!-- Remaining HTML code and footer -->
+
+    <section  class="appointment-book">
+        <h2>Book an Appointment</h2>
+        <p>Ready to book our sofa cleaning services? Fill out the form below, and we'll get back to you to confirm your appointment.</p>
+
+        <form action="book.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <select>
+                <option value="">Select a Service</option>
+                <option value="">sofa-cleaning</option>
+                <option value="">carpet-cleaning</option>
+            </select>
+
+            <label for="message">Additional Information:</label>
+            <textarea id="message" name="message" rows="4"></textarea><br>
+
+            <input type="submit" value="Book Now" class="contact-button">
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2023 Your Company. All rights reserved.
+    </footer>
+
+    <script src="slideshow.js"></script>
+</body>
+</html>

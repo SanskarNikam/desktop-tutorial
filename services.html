@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling for services and sub-services */
+        .mainservice {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .mainservice:hover {
+            background-color: #e0e0e0;
+        }
+
+        .sub-services {
+            display: none;
+            padding-left: 20px;
+        }
+
+        /* Styling for images */
+        .mainservice img {
+            max-width: 100%;
+            height: auto;
+        }
+        .sub-services{
+            list-style: none;
+        }
+
+        /* Style for links */
+        .sub-services li a {
+            text-decoration: none;
+            color: #333333cc;
+            transition: color 0.3s ease;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px;
+        }
+
+        .sub-services li a:hover {
+            color: #ad6161;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/homeskillz.png" alt="logo">
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="help.html" class="button">Help</a></li>              
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="contact.html" class="button">Contact us</a></li>
+                <li><a href="feedback.html" class="button">Feedback</a></li>
+               
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="service">
+        <div class="mainservice">
+            <h2>Servant Services</h2>
+            <ul class="sub-services">
+                <li><a href="nanny.html">Nanny</a></li>
+                <li><a href="housesitter.html">House Sitter</a></li>
+                <li><a href="gardeners.html">Gardeners</a></li>
+                <li><a href="cooks.html">Cooks/Chefs</a></li>
+                <li><a href="petcaretakers.html">Pet Caretakers</a></li>
+                <li><a href="housecleaners.html">House Cleaners</a></li>
+            </ul>
+            <img src="data:image/jpeg;base64,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" alt="Servant Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>Deep Cleaning</h2>
+            <ul class="sub-services">
+                <li><a href="mattresscleaning.html">Mattress Cleaning</a></li>
+                <li><a href="sofacleaning.html">Sofa Cleaning</a></li>
+                <li><a href="carpetcleaning.html">Carpet Cleaning</a></li>
+            </ul>
+            <img src="assets/deepcleaning.jpg" alt="Deep Cleaning Image">
+        </div>
+        <div class="mainservice">
+            <h2>Handyman Services</h2>
+            <ul class="sub-services">
+                <li><a href="painter.html">Painter</a></li>
+                <li><a href="carpenter.html">Carpenter</a></li>
+                <li><a href="electrician.html">Electrician</a></li>
+                <li><a href="plumber.html">Plumber</a></li>
+                <li><a href="carmechanic.html">Car Mechanic</a></li>
+            </ul>
+            <img src="assets/handymanservice.jpg" alt="Handyman Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>Sanitization Services</h2>
+            <ul class="sub-services">
+                <li><a href="apartment-sanitization.html">Apartment</a></li>
+                <li><a href="office-sanitization.html">Office</a></li>
+            </ul>
+            <img src="assets/sanitizationservices.jpg" alt="Sanitization Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>AC Services</h2>
+            <ul class="sub-services">
+                <li><a href="ac-maintenance.html">AC Maintenance</a></li>
+                <li><a href="ac-service.html">AC Service</a></li>
+            </ul>
+            <img src="assets/acservices.jpg" alt="AC Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>Pest Control Services</h2>
+            <ul class="sub-services">
+                <li><a href="cockroach-control.html">Cockroach Control</a></li>
+                <li><a href="general-pest-control.html">General Pest Control</a></li>
+                <li><a href="bed-bugs-control.html">Bed Bugs Control</a></li>
+            </ul>
+            <img src="assets/pestcontrolservice.jpg" alt="Pest Control Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>Healthcare</h2>
+            <ul class="sub-services">
+                <li><a href="physiotherapy.html">Physiotherapy</a></li>
+                <li><a href="doctor-consultation.html">Doctor Consultation</a></li>
+                <li><a href="blood-test.html">Blood Test</a></li>
+            </ul>
+            <img src="assets/healthcareservice.jpg" alt="Healthcare Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>Office Boy/Cleaner</h2>
+            <ul class="sub-services">
+                <li><a href="officeboy-cleaner.html">Office Boy/Office Cleaner</a></li>
+            </ul>
+            <img src="assets/office-boy-service-500x500.webp" alt="Office Boy/Cleaner Services Image">
+        </div>
+        <div class="mainservice">
+            <h2>Other Services</h2>
+            <ul class="sub-services">
+                <li><a href="moving-helper.html">Moving Helper</a></li>
+                <li><a href="dog-trainer.html">Dog Trainer</a></li>
+                <li><a href="music-teacher.html">Music Teacher/Instructor</a></li>
+                <li><a href="yoga-instructor.html">Yoga Instructor</a></li>
+                <li><a href="makeup-artist.html">Makeup Artist</a></li>
+                <li><a href="hairdresser-barber.html">Hairdresser/Barber</a></li>
+                <li><a href="interior-designer.html">Interior Designer</a></li>
+                <li><a href="personal-trainers.html">Personal Trainers</a></li>
+                <li><a href="rent-a-car.html">Rent a Car</a></li>
+            </ul>
+            <img src="assets/other-services-word-cloud-wordcloud-made-text-130553416.webp" alt="Other Services Image">
+        </div>
+    </section>
+    <footer>
+        &copy; 2023 Your Company. All rights reserved.
+    </footer>
+    <script>
+        const services = document.querySelectorAll('.mainservice');
+
+        services.forEach(service => {
+            service.addEventListener('click', () => {
+                const subServices = service.querySelector('.sub-services');
+                subServices.style.display = subServices.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Cost Estimator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/homeskillz.png" alt="logo">
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="help.html" class="button">Help</a></li>              
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="contact.html" class="button">Contact us</a></li>
+                <li><a href="feedback.html" class="button">Feedback</a></li>
+               
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="estimate-form">
+            <h2>Estimate Moving Cost</h2>
+            <form id="movingCostForm">
+                <label for="fromAddress">From Address:</label>
+                <input type="text" id="fromAddress" required>
+
+                <label for="toAddress">To Address:</label>
+                <input type="text" id="toAddress" required>
+
+                <label for="moveDate">Move Date:</label>
+                <input type="date" id="moveDate" required>
+
+                <label for="moveSize">Move Size:</label>
+                <select id="moveSize" required>
+                    <option value="small">Small (1-2 rooms)</option>
+                    <option value="medium">Medium (3-4 rooms)</option>
+                    <option value="large">Large (5+ rooms)</option>
+                </select>
+
+                <button type="submit">Calculate Cost</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Home Service. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
