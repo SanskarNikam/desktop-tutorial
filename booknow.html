@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Home Cleaning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/homeskillz.png" alt="logo">
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="help.html" class="button">Help</a></li>              
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="contact.html" class="button">Contact us</a></li>
+                <li><a href="feedback.html" class="button">Feedback</a></li>
+               
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking">
+        <h1>Book Home Cleaning</h1>
+        <form action="payment.html" method="POST">
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="home-cleaning">Home Cleaning</option>
+                <!-- Add more service options as needed -->
+            </select>
+
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="address">Enter Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <div class="action-buttons">
+                <button type="submit" class="continue-button">Continue</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Home Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>

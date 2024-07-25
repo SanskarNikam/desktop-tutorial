@@ -1,0 +1,1386 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f5f3;
+}
+
+header {
+    background-color: #151b13;
+    padding: 20px 0;
+}
+.location-search a{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #25192c;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav img {
+    height: 100px;
+    width: 150px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+.button{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.769);
+    color:white;
+}
+.contact-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White form background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #070606; /* Dark text color */
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #0c0b0b; /* Slightly lighter text color */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(240, 240, 126)   
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+button:hover {
+    background-color:yellow /* Slightly darker blue on hover */
+}
+/* Feedback Page Styles */
+
+
+.feedback-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White form background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(44, 2, 95, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #120f0f; /* Dark text color */
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #080707; /* Slightly lighter text color */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2b2828; /* Light gray border */
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: linear-gradient(to top, #500b3a , #400585); /* Blue button background */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:linear-gradient(to top, #500b3a , #400585);/* Slightly darker blue on hover */
+}
+
+
+.location-search {
+    background-color: #fffffff8;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.location-search h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.location-search p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.location-search select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.location-search button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color:linear-gradient(to top, #500b3a , #400585);
+    border: 4px solid #ccc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* div{
+    border: 2px solid rgba(0, 0, 0, 0.208);
+} */
+main {
+    padding: 20px;
+    background-color: #DDE6ED;
+
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px 20px 20px 20px;
+    width: 70%;
+    margin: auto;
+}
+.card {
+    padding: 150px;
+    height:100px;
+    width:100px;
+}
+.card:hover{
+    background-color:rgba(3, 3, 3, 0.918);
+}
+.card img{
+    height: 90px;
+    width: 90px;
+}
+.card p{
+    text-align: center;
+    font-weight: bold;
+}
+.ads {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #9DB2BF;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.adscard{
+    height:150px;
+    width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #DDE6ED;
+    border-radius: 15px;
+    padding: 10px;
+    margin:10px;
+}
+.adscard a{
+    color:black;
+    text-decoration: none;
+    background-color:#526d82d5;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.adscard:hover{
+    height:190px;
+    width: 290px;
+    transition: ease-in-out 0.5s;
+}
+.adscard img{
+    height: 90px;
+    width: 90px;
+}
+.launches{
+    width: 70%;
+    margin: auto;
+    background-color:  #9db2bfc4;
+}
+.launches h2, .best-offers h2, .service h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.new-launches img{
+    height:200px;
+    width: 300px;
+}
+.new-launches img:hover{
+    height:210px;
+    width: 310px;
+    transition: ease-in-out 0.5s;
+}
+
+.new-launches {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.best-offers{
+    padding: 20px;
+    background-color: #f4d80569;
+    width: 70%;
+    margin: auto;
+}
+.service {
+    padding: 20px;
+    background-color: #ffffff69;
+    width: 80%;
+    margin: auto;
+}
+.best-offers h2, .service h2 {
+    /* font-size: 24px; */
+    margin-bottom: 10px;
+}
+
+.best-offers p, .service p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container img {
+    width: 250px;
+    height: 150px;
+}
+.image-container img:hover {
+    width: 260px;
+    height: 160px;
+    transition: ease-in-out 0.5s;
+}
+.image-container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.card1{
+    height:200px;
+    width:270px;
+    margin: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/*user_or_provider*/
+#head{
+    margin:20px;
+}
+#user , #provider{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    margin:20px;
+    font-weight: 700;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+#user:hover , #provider:hover{
+    background-color: black;
+    color:white;
+    font-weight: 700;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*login page*/
+  .container {
+    width: 600px;
+    height: 300px;
+    margin: 240px auto;
+    background-color: #fafcfa;
+    
+}
+.container2 {
+    width: 600px;
+    height: 500px;
+    margin: 130px auto;
+    background-color: #f0d908;   
+}
+.container3 {
+    width: 700px;
+    height: 1200px;
+    margin: 130px auto;
+    background-color: #e5f50a;
+    padding: 20px;
+    
+}
+  .form-container {
+    padding: 20px;
+    border: 1px solid #e6d114;
+    border-radius: 5px;
+  }
+  .form-container h2 {
+    text-align: center;
+  }
+  #loginForm {
+    margin-top: 20px;
+  }
+  #loginForm input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #7f08f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+ #loginForm button {
+    width: 80%;
+    padding: 10px;
+    background-color: #6950e5;
+    color: #f2f3f2;
+    border: 1px solid #58624e;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-container a {
+    color: #040503;
+    text-decoration: none;
+  }
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+
+  /*provider register*/
+  .form-group {
+      margin-bottom: 15px;
+  }
+  
+  .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  .form-group input, .form-group textarea {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #d21313;
+      border-radius: 4px;
+  }
+  
+  .form-group textarea {
+      resize: vertical;
+  }
+  
+#registration-form  button[type="submit"] {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3c08cb;
+      color: #ede8e8;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+ #registration-form button[type="submit"]:hover {
+      background-color: #031309;
+  }
+  
+/*Products*/
+
+.products{
+    width: 100%;
+    height: 100%;
+    padding: 25px 0;
+}
+
+.products h1{
+    margin: 35px 0;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #27374D,#27374D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.products .box{
+    width: 90%;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px 20px;
+}
+
+.products .box .card{
+    width: 220px;
+    height: 300px;
+    box-shadow: 0 0 8px #526D82;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    background: #edeeeb;
+    padding: 20px;
+}
+
+.products .box .card .small_card{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 10px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.products .box .card:hover .small_card{
+    transform: translateX(2px);
+    cursor: pointer;
+    opacity: 1;
+}
+
+.products .box .card .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.products .box .card .image img{
+    width: 80px;
+    height:80px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.products .box .card:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box .card .small_card i{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    border: 2px solid #94A684;
+    transition: 0.2s;
+}
+
+.products .box .card .small_card i:hover{
+    color: #04cc22;
+}
+
+.products .box .card .products_text h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.products .box .card .products_text p{
+    color: #f7f8f7;
+    line-height: 21px;
+    margin: 8px 0;
+}
+
+.products .box .card .products_text h3{
+    margin: 7px 0;
+}
+
+.products .box .card .products_text .products_star{
+    color: orange;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.products .box .card .products_text .btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #27374D , #0a0f0d);
+    color: rgb(157, 154, 154);
+}
+.service-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+/* Header Points */
+.header-points {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.point {
+    flex-basis: calc(33.33% - 10px);
+    padding: 20px;
+    background-color: #23118a; /* Blue background for points */
+    border-radius: 50px;
+    border-width: 20px;
+    border-color: rgb(15, 12, 12)
+}
+
+.point h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Content Styling */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #0d0b0b; /* Dark text color */
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #000805; /* Slightly lighter text color */
+}
+/* CSS for Payment Page */
+
+
+header {
+    background-color: #526D82; /* Dark blue header background */
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White logo text */
+    text-align: center;
+}
+
+.payment-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #112233; /* Dark green text color */
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.payment-option {
+    text-align: center;
+}
+
+.payment-option img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.payment-option p {
+    font-size: 18px;
+}
+/* CSS for Redirect Button */
+.redirect-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redirect-button {
+    background-color: #3d5af1; /* Blue button background color */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline for anchor element */
+    display: inline-block;
+    cursor: pointer;
+}
+
+.redirect-button:hover {
+    background-color: #3452c3; /* Darker blue on hover */
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White logo text */
+    text-align: center;
+}
+
+.user-profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.user-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.user-profile h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.user-profile p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.login-button {
+    background-color: #112520; /* Blue button background color */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* CSS for Horizontal Image Carousel */
+
+
+.carousel-container {
+    max-width: 800px; /* Adjustable width */
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+    display: flex;
+    animation: horizontal-rotation 10s linear infinite;
+}
+
+.carousel img {
+    width: 100%; /* Ensure images fill the container width */
+    height: auto;
+    flex-shrink: 0;
+}
+
+@keyframes horizontal-rotation {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* CSS for Help Page */
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White logo text */
+    text-align: center;
+}
+
+.help-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.help-title {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Horizontal line under the title */
+}
+
+.help-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/*.footer {
+    text-align: center;
+    margin-top: 20px;
+}*/
+footer p{
+    color: white;
+}
+
+/* Add additional styles for specific elements as needed */
+
+.help-content a{
+    text-decoration: none;
+}
+
+
+/*applicances*/
+
+/* Style the service title */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the service details section */
+.service-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.service-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.service-info h3 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.service-rating {
+    margin-bottom: 20px;
+}
+
+.service-rating i {
+    font-size: 24px;
+    color: #f8d71c;
+    margin-right: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the service features section */
+.service-features {
+    margin-bottom: 20px;
+}
+
+.service-features h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-features ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.service-features li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style the service gallery section */
+.service-gallery {
+    margin-bottom: 20px;
+}
+
+.service-gallery h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add more specific styles as needed to further customize your page */
+
+/*book now*/
+/* Reset some default styles for consistency */
+ form, label, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the booking section */
+.booking {
+    text-align: center;
+    margin: 20px;
+}
+
+.booking h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* /Style the form elements */
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+select, input[type="date"], input[type="time"], textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+/* Style the action buttons */
+.action-buttons {
+    margin-top: 20px;
+}
+
+.continue-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+    background-color: #0056b3;
+}
+
+/*explorenow*/
+/* Style the painting offer section */
+.painting-offer {
+    text-align: center;
+    margin: 20px;
+}
+
+.painting-offer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.painting-offer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.painting-options {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.painting-options li {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.painting-options li:hover {
+    background-color: #ececec;
+}
+
+.painting-options img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.painting-options h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.painting-options p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}
+
+/*interior,exterior and wall art painting*/
+.painting {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color:#e4e6e48e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.painting h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.painting p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.painting img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.painting h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.process-steps,.painting-steps {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.gallery-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.gallery-button:hover {
+    background-color: #ff3300;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .painting {
+        padding: 20px;
+    }
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #ff3300;
+}
+
+/*applicances*/
+.app-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.app-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.app-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app-card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.app-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.home-cleaning,.carpet-cleaning,.sofa-cleaning,.pest-control,.bed-bug-control,.appointment-book {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-cleaning,.carpet-cleaning,.sofa-cleaning,.pest-control,.bed-bug-control,.appointment-book h1,h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.home-cleaning,.carpet-cleaning,.sofa-cleaning,.pest-control,.bed-bug-control,.appointment-book p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.stars {
+    color: #ffcc00;
+}
+
+.rating p {
+    font-size: 16px;
+    color: #666;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact-button:hover {
+    background-color: #555;
+}
+
+.appointment-book form {
+    margin-top: 20px;
+}
+
+.appointment-book form label,.appointment-book  form input,.appointment-book  form textarea {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.appointment-book form input, .appointment-book form textarea {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.appointment-book  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.appointment-book form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* Style the form */
+#movingCostForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99%;
+}
+
+#movingCostForm label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#movingCostForm input[type="text"],
+#movingCostForm input[type="date"],
+#movingCostForm select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#movingCostForm select {
+    cursor: pointer;
+}
+
+#movingCostForm button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#movingCostForm button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* CSS for Booking Page */
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White logo text */
+    text-align: center;
+}
+
+.booking-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffcc; /* Yellow content background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #27374D; /* Blue heading color */
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4d1616;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-button {
+    background-color: #3d5af1; /* Blue button background color */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: #0f0f0e; /* Darker blue on hover */
+}

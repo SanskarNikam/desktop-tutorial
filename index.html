@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Service</title>
+    <link rel="stylesheet" href="styles.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/homeskillz.png" alt="logo">
+            <ul>
+                <li><a href="login.html" class="button">Login</a></li>
+                <li><a href="help.html" class="button">Help</a></li>              
+                <li><a href="user_or_provider.html" class="button">Register</a></li>
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="contact.html" class="button">Contact us</a></li>
+                <li><a href="feedback.html" class="button">Feedback</a></li>
+               
+                
+            </ul>
+        </nav>
+        <div class="location-search">
+            <h1>Find the best services near you</h1>
+            <p>Enter your location to find the best offers and services in your area</p>
+            <select id="locationSelector">
+                <option value="">Select a location</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+            <a href="search.html">Search</a>
+        </div>
+    </header>
+    <body>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="assets/slideshow1_.jpg" alt="Image 1">
+                <img src="assets/slideshow2_.jpg" alt="Image 2">
+                <img src="assets/healthcar.jpg" alt="Image 3">
+                <img src="assets/slideshow4.jpg" alt="Image 4">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+        
+      
+
+    <main>
+        <!-- <div class="services">
+            <div class="card">
+                <a href="ac1.html">
+                    <img src="assets/ac.png" alt="Service 1">
+                    <p>AC & Applicance</p> 
+                </a>    
+            </div>
+            <div class="card">
+                <a href="cleaning.html">
+                    <img src="assets/clean.png" alt="Service 2">
+                    <p>Cleaning Services</p>
+                </a>
+                 
+            </div>
+            <div class="card">
+                <a href="saloonwomen.html">
+                    <img src="assets/female.png" alt="Service 3">
+                    <p>Salon for Women </p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="saloonmen.html">
+                    <img src="assets/men.png" alt="Service 4">
+                    <p>Salon for Men</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="health.html">
+                    <img src="assets/healthcare.png" alt="Service 5">
+                    <p>Health Care</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="pest.html">
+                    <img src="assets/pest.png" alt="Service 6">
+                    <p>Pest Control</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="handyman.html">
+                    <img src="assets/handyman.png" alt="Service 7">
+                    <p>Handyman Services</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="cleaning.html">
+                    <img src="assets/waiter.png" alt="Service 8">
+                    <p>Servant Services</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="cleaning.html">
+                    <img src="assets/office.png" alt="Service 8">
+                    <p>Officeboy</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href=".html">
+                    <img src="assets/sanitizer.png" alt="Service 8">
+                    <p>Sanitization services</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="other_service.html">
+                    <img src="assets/application.png" alt="Service 8">
+                    <p>Other Services</p>
+                </a>
+            </div>
+            
+        </div>
+        <br><br> -->
+
+
+        <div class="products" id="products">
+            <h1>Services</h1>
+    
+            <div class="box">
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+                        <img src="assets/ac.png">
+    
+                    <div class="products_text">
+                        <h2>AC And Appliances</h2>
+                        <h3>rs 19.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a href="ac1.html" class="btn">View Service</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+                        <img src="assets/clean.png">
+    
+                    <div class="products_text">
+                        <h2>Cleaning Services</h2>
+                        <h3>$20.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <a href="cleaning.html" class="btn">View Services</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+                        <img src="assets/female.png">
+    
+                    <div class="products_text">
+                        <h2>Salon for Women</h2>
+                        <h3>$17.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="saloonwomen.html" class="btn">View Services</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+    
+                  
+    
+                        <img src="assets/men.png">
+    
+                    <div class="products_text">
+                        <h2>Salon for Men</h2>
+                        <br>
+                        <h3>$12.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="saloonmen.html" class="btn">View Services</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+                        <img src="assets/healthcare.png">
+    
+                    <div class="products_text">
+                        <h2>Health Care</h2>
+                        <br>
+                        <h3>$15.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a href="health.html" class="btn">View Services</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+                        <img src="assets/pest.png">
+    
+                    <div class="products_text">
+                        <h2>Pest Control</h2>
+                        <br>
+                        <h3>$22.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="pest.html" class="btn">View Services</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+    
+                    <img src="assets/handyman.png">
+    
+                    <div class="products_text">
+                        <h2>HandyMan Services</h2>
+                        <h3>$11.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="handyman.html" class="btn">View Services</a>
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <!-- <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div> -->
+                        <img src="assets/application.png">
+    
+                    <div class="products_text">
+                        <h2>Other Services</h2>
+                        <br>
+                        <h3>$150.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn">View Services</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <br><br>
+
+        <div class="ads">
+            <h2>Best Offers</h2>
+            <div class="adscard">
+                <div>
+                    <p>Lowest rates</p><br>
+                    <h3>Upto 60% off on Home cleaning</h3><br>
+                    <a href="booknow.html">Book Now</a>
+                </div>
+                <img src="assets/vacuum.png" alt="Ad 1">
+            </div>
+            <div class="adscard">
+                <div>
+                    <p>Festive Sale</p><br>
+                    <h3>Flat 25% off on Home Painting</h3><br>
+                    <a href="explorenow.html">Explore Now</a>
+                </div>
+                <img src="assets/painting.png" alt="Ad 1">
+            </div>
+            <div class="adscard">
+                <div>
+                    <p>House shifting bonanza</p><br>
+                    <h3>upto 30% off on Packers & Movers</h3><br>
+                    <a href="movingcost.html">Estimate moving cost</a>
+                </div>
+                <img src="assets/movers.png" alt="Ad 1">
+            </div>
+        </div>
+        <br><br>
+        <div class="launches">
+            <h2>New Launches</h2>
+                <br>
+                <div class="new-launches">
+                    <div>
+                        <a href="rent_car.html">
+                            <img src="assets/rent.jpeg" alt="Launch 1">
+                        </a>
+                        <!-- <img src="assets/rent.jpeg" alt="Launch 1"> -->
+                        <h3>Rent a Car</h3>
+                    </div>
+                    <div>
+                        <a href="dogtrainer.html">
+                            <img src="assets/dog.jpeg" alt="Launch 1">
+                        </a>
+                        <h3>Dog Trainer</h3>
+                    </div>
+                    <div>
+                        <a href="yogatrainer.html">
+                            <img src="assets/yoga.jpeg" alt="Launch 1">
+                        </a>
+                        <h3>Yoga Instructor</h3>
+                    </div>
+                </div>
+        </div> 
+        <br><br>
+        <div class="service">
+            <h2>Cleaning & Pest Control</h2>
+            <div class="image-container">
+                <div class="card1">
+                    <a href="fullcleaning.html">
+                        <img src="assets/clean1.png" alt="Image 1">
+                    </a>
+                    <p>Full Home Cleaning</p>
+                </div>
+                <div class="card1">
+                    <a href="sofacleaning.html">
+                        <img src="assets/clean2.png" alt="Image 2">
+                    </a>
+                    <p>Sofa & Carpet Cleaning</p>
+                </div>
+                <div class="card1">
+                    <a href="capest.html">
+                        <img src="assets/clean3.png" alt="Image 3">
+                    </a>
+                    <p>Cockroach, Ant & General Pest Control</p>
+                </div>
+                <div class="card1">
+                    <a href="bugcontrol.html">
+                        <img src="assets/clean4.png" alt="Image 4">
+                    </a>
+                    <p>Bed Bugs Control</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="service">
+            <h2>HandyMan</h2>
+            <div class="image-container">
+                <div class="card1">
+                    <a href="carpenter.html">
+                        <img src="assets/handyman1.png" alt="Image 1">
+                    </a>
+                    <p>Carpenters</p>
+                </div>
+                <div class="card1">
+                    <a href="electricians.html">
+                        <img src="assets/handyman2.png" alt="Image 2">
+                    </a>
+                    <p>Electrician</p>
+                </div>
+                <div class="card1">
+                    <a href="plumbers.html">
+                        <img src="assets/handyman3.png" alt="Image 3">
+                    </a>
+                    <p>Plumbers</p>
+                </div>
+                <div class="card1">
+                    <a href="painter.html">
+                        <img src="assets/handyman4.jpeg" alt="Image 4">
+                    </a>
+                    <p>Painters</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="service">
+            <h2>Applicances</h2>
+            <p>Servicing, Repair, Installation & Uninstallation</p>
+            <div class="image-container">
+                <div class="card1">
+                    <a href="applicances1.html">
+                        <img src="assets/app1.png" alt="Image 1">
+                        <p>Geyser Repair</p>
+                    </a>
+                </div>
+                <div class="card1">
+                    <a href="applicances2.html">
+                        <img src="assets/app2.png" alt="Image 2">
+                        <p>Water Purifier</p>
+                    </a>
+                </div>
+                <div class="card1">
+                    <a href="applicances3.html">
+                        <img src="assets/app3.png" alt="Image 3">
+                        <p>Washing Machine Repair</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Home Service. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

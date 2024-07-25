@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Cleaning Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/homeskillz.png" alt="logo">
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="help.html" class="button">Help</a></li>              
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="contact.html" class="button">Contact us</a></li>
+                <li><a href="feedback.html" class="button">Feedback</a></li>
+               
+                
+            </ul>
+        </nav>
+    </header>
+<section class="pest-control">
+    <h2>Cockroach, Ant & General Pest Control</h2>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image1.jpg" alt="Sofa Cleaning Image 1">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image2.jpg" alt="Sofa Cleaning Image 2">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sofa-cleaning-image3.jpg" alt="Sofa Cleaning Image 3">
+        </div>
+    </div>
+    <p>Protect your home from common pests like cockroaches and ants with our professional pest control services. We use safe and effective methods to eliminate pests and prevent future infestations.</p>
+    <img src="pest-control-image.jpg" alt="Pest Control">
+    <h3>Pricing</h3>
+    <p>Our pest control services start at $79.99. Prices may vary depending on the size of your property and the severity of the infestation.</p>
+    <div class="rating">
+        <p>Service Rating: <span class="stars">★★★★★</span></p>
+    </div>
+</section>
+
+<section class="appointment-book">
+    <h2>Book an Appointment</h2>
+<p>Ready to book our cleaning services? Fill out the form below, and we'll get back to you to confirm your appointment.</p>
+
+<form action="book.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required><br>
+
+    <label for="message">Additional Information:</label>
+    <textarea id="message" name="message" rows="4"></textarea><br>
+
+    <input type="submit" value="Book Now" class="contact-button">
+</form>
+</section>
+<footer>
+    <p>&copy; 2023 Home Service. All rights reserved.</p>
+</footer>
+
+<script src="slideshow.js"></script>
+</body>
+</html>

@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f4f5f3;
+}
+
+header {
+    background-color: #151b13;
+    padding: 20px 0;
+}
+
+.location-search a {
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #25192c;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav img {
+    height: 100px;
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.button {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.769);
+    color: white;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #070606;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #0c0b0b;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Feedback Page Styles */
+
+.feedback-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(44, 2, 95, 0.2);
+}
+
+.feedback-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #120f0f;
+}
+
+.feedback-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #080707;
+}
+
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2b2828;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to top, #500b3a, #400585);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background: linear-gradient(to top, #500b3a, #400585);
+}
+
+.location-search {
+    background-color: #fffffff8;
+    padding: 20px;
+    text-align: center;
+}
+
+.location-search h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.location-search p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.location-search select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.location-search button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: linear-gradient(to top, #500b3a, #400585);
+    border: 4px solid #ccc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    background-color: #DDE6ED;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.card {
+    padding: 150px;
+    height: 100px;
+    width: 100px;
+}
+
+.card:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.launches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6a6a69;
+    padding: 20px;
+}
+
+.launches img {
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.launches img:hover {
+    transform: scale(1.1);
+}
+
+.best-offers {
+    background-color: #6b6a6a69;
+    padding: 20px;
+    text-align: center;
+}
+
+.best-offers h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.best-offers p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #151b13;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.user-provider {
+    text-align: center;
+}
+
+.user-provider a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.user-provider a:hover {
+    text-decoration: underline;
+}
+
+.login-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-page h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-page form {
+    text-align: left;
+}
+
+.login-page label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-page button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2e86de;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.payment-page {
+    text-align: center;
+}
+
+.payment-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.payment-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+}
+
+.payment-options .option {
+    margin: 20px;
+}
+
+.payment-options .option img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.payment-options button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: linear-gradient(to top, #500b3a, #400585);
+    border: none;
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-options button:hover {
+    background: linear-gradient(to top, #500b3a, #400585);
+}
+
+.user-profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.horizontal-carousel img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.horizontal-carousel img:hover {
+    transform: scale(1.1);
+}
+
+.help-page {
+    text-align: center;
+    background-color: #DDE6ED;
+    padding: 20px;
+}
+
+.help-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.help-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.appliances {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.appliances .card {
+    margin: 20px;
+}
+
+.appliances .card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.booking {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.booking form {
+    text-align: left;
+}
+
+.booking label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.booking input[type="text"],
+.booking input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2e86de;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore-now {
+    text-align: center;
+    padding: 20px;
+    background-color: #DDE6ED;
+}
+
+.explore-now h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.explore-now p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.interior-painting,
+.exterior-painting,
+.wall-art-painting {
+    background-color: #DDE6ED;
+    padding: 20px;
+    text-align: center;
+}
+
+.interior-painting h1,
+.exterior-painting h1,
+.wall-art-painting h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.interior-painting p,
+.exterior-painting p,
+.wall-art-painting p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.painting-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+}
+
+.painting-options .option {
+    margin: 20px;
+}
+
+.painting-options .option img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.painting-options button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: linear-gradient(to top, #500b3a, #400585);
+    border: none;
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.painting-options button:hover {
+    background: linear-gradient(to top, #500b3a, #400585);
+}
+
+.salon {
+    background-color: #DDE6ED;
+    padding: 20px;
+    text-align: center;
+}
+
+.salon h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.salon p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.salon-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6b6a6a69;
+    padding: 20px;
+}
+
+.salon-options .option {
+    margin: 20px;
+}
+
+.salon-options .option img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.salon-options button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: linear-gradient(to top, #500b3a, #400585);
+    border: none;
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.salon-options button:hover {
+    background: linear-gradient(to top, #500b3a, #400585);
+}
+
+.payment-success {
+    text-align: center;
+    background-color: #DDE6ED;
+    padding: 20px;
+}
+
+.payment-success h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.payment-success p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.payment-success img {
+    max-width: 100%;
+    height: auto;
+}
+
+.checkout {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.checkout h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.checkout form {
+    text-align: left;
+}
+
+.checkout label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout input[type="text"],
+.checkout input[type="email"],
+.checkout input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkout button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2e86de;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-summary {
+    background-color: #DDE6ED;
+    padding: 20px;
+}
+
+.checkout-summary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.checkout-summary p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.checkout-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.checkout-summary table th,
+.checkout-summary table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.checkout-summary table th {
+    background-color: #f5f5f5;
+}
+
+.checkout-summary table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.checkout-summary table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.checkout-success {
+    text-align: center;
+    background-color: #DDE6ED;
+    padding: 20px;
+}
+
+.checkout-success h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.checkout-success p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
